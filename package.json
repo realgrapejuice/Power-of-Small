@@ -1,0 +1,26 @@
+{
+  "name": "powerofsmall",
+  "version": "1.0.0",
+  "description": "\"당신의 멋진 하루가, 멋진 삶으로 연결될 수 있도록\" 성취한 것을 기록해주는 어플리케이션",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realgrapejuice/Power-of-Small.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "author": "Seung Hoon HAN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realgrapejuice/Power-of-Small/issues"
+  },
+  "homepage": "https://github.com/realgrapejuice/Power-of-Small#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.14.1"
+  }
+}
